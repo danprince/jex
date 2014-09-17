@@ -1,0 +1,16 @@
+(var a 3)
+(var b 10)
+(var c (+ a b))
+
+(do
+  (* x x)
+  (read 'file'
+    (fn [:file] (print file))))
+
+(print 'hello')
+
+(var a 3)
+(print a)
+
+(fun hey [:word]
+  (print word))
